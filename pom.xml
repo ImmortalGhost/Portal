@@ -12,6 +12,7 @@
         <module>ui</module>
         <module>model</module>
         <module>core</module>
+
     </modules>
 
 

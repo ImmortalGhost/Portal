@@ -9,7 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>ru.epam.webapp</groupId>
     <artifactId>model</artifactId>
-
-
+    <version>1.0</version>
+    <name>model</name>
+    <dependencies>
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-entitymanager</artifactId>
+        <version>4.3.11.Final</version>
+    </dependency>
+    </dependencies>
 </project>
