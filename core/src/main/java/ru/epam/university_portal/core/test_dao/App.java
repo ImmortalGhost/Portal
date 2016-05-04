@@ -28,7 +28,9 @@ public class App {
         UserServiceImpl userService=
                 (UserServiceImpl) context.getBean(UserServiceImpl.class) ;
         User user =new User("usernane1245","username1","23","userl","userp","idUser");
-        userService.addUser(user);
+        //userService.addUser(user);
+        User user1=userService.getUser("admin");
+        if (user1!=null)System.out.print(user1.firstName);
         System.out.print("hello");
 
     }

@@ -13,6 +13,7 @@
     <artifactId>model</artifactId>
     <version>1.0</version>
     <name>model</name>
+
     <dependencies>
     <dependency>
         <groupId>org.hibernate</groupId>

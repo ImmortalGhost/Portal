@@ -13,6 +13,8 @@ import ru.epam.university_portal.model.entity.User;
 public class UserServiceImpl implements IUserService{
     private IUserDAO userDAO;
 
+    public UserServiceImpl(){}
+
     @Autowired
     public UserServiceImpl(IUserDAO userDAO){
         this.userDAO=userDAO;
@@ -23,4 +25,5 @@ public class UserServiceImpl implements IUserService{
     public User getUser(String lastName){
         return userDAO.getUser(lastName);
     }
+
 }

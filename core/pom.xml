@@ -9,7 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+
+    <groupId>ru.epam.webapp</groupId>
     <artifactId>core</artifactId>
+    <version>1.0</version>
+    <name>core</name>
 
     <dependencies>
 
