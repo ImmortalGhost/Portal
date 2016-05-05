@@ -8,5 +8,5 @@ import ru.epam.university_portal.model.entity.User;
 public interface IUserDAO {
     void addUser(User user);
 
-    User getUser(String lastName);
+    User getUser(String login,String password);
 }

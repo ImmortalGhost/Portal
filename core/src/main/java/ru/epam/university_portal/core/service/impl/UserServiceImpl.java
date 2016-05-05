@@ -22,8 +22,8 @@ public class UserServiceImpl implements IUserService{
     public void addUser(User user){
         userDAO.addUser(user);
     }
-    public User getUser(String lastName){
-        return userDAO.getUser(lastName);
+    public User getUser(String login,String password){
+        return userDAO.getUser(login,password);
     }
 
 }

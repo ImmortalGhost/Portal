@@ -90,7 +90,7 @@ public class UserDAOImpl implements IUserDAO {
        }
        return user;
    }/*/
-   public User getUser(String login) {
+   public User getUser(String login,String password) {
        Transaction t = null;
        Session session=null;
 
