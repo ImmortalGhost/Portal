@@ -35,8 +35,8 @@ private  LoginLogic loginLogic;
 
     @RequestMapping(method = RequestMethod.GET)
     public String printWelcome(ModelMap model,HttpServletRequest request, HttpServletResponse response) {
-
-        User user= userService.getUser("admin","");
+ //System.out.print(request.getRemoteUser());
+        User user= userService.getUser("admin","admin");
 
         System.out.println(user.firstName);
         String login=  request.getParameter("login");
