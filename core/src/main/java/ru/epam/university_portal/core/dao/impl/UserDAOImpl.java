@@ -1,7 +1,6 @@
 package ru.epam.university_portal.core.dao.impl;
 
 import org.hibernate.annotations.NamedQuery;
-import ru.epam.university_portal.core.dao.IUserDAO;
 
 import org.hibernate.HibernateException;
 
@@ -22,7 +21,7 @@ import ru.epam.university_portal.model.entity.User;
 @NamedQuery(name="findUserByLogin",
 
         query="select u from User u where u.login = :login")
-public class UserDAOImpl implements IUserDAO {
+public class UserDAOImpl /*implements IUserDAO*/ {
     private Session session;
 
     private SessionFactory sessionFactory;
@@ -65,9 +64,9 @@ public class UserDAOImpl implements IUserDAO {
          //  ConnectionFactory.destroy();
        }
        if (user!=null){
-           if (password.equals(user.password))
+        //   if (password.equals(user.password))
                return user;
-           else return null;
+       //    else return null;
        }else  return null;
    }
 }

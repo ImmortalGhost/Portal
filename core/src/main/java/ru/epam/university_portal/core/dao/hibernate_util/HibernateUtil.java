@@ -30,9 +30,9 @@ public class HibernateUtil {
 
         Configuration configuration =new Configuration()
                 .setProperty("hibernate.connection.driver_class","com.mysql.jdbc.Driver")
-                .setProperty("hibernate.connection.url","jdbc:mysql://localhost:3306/UniversityPortal")
+                .setProperty("hibernate.connection.url","jdbc:mysql://localhost:8081/UniversityPortal")
                 .setProperty("hibernate.connection.username","root")
-                .setProperty("hibernate.connection.password","lenin1")
+                .setProperty("hibernate.connection.password","root")
                 .setProperty("hibernate.connection.pool_size","2")
                 .setProperty("hibernate.dialect","org.hibernate.dialect.MySQLDialect")
                 .setProperty("hibernate.current_session_context_class","thread")

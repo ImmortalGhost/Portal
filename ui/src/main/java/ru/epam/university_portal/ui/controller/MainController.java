@@ -18,27 +18,27 @@ import javax.servlet.http.HttpServletResponse;
 @RequestMapping("/welcome")
 public class MainController {
 private  LoginLogic loginLogic;
-    @Autowired
-    public void setLoginLogic(LoginLogic loginLogic){
-          this.loginLogic=loginLogic;
-         }
+    //@Autowired
+//    public void setLoginLogic(LoginLogic loginLogic){
+//          this.loginLogic=loginLogic;
+//         }
  private   IUserService userService;
    // IUserService iUserService=new UserServiceImpl(new UserDAOImpl())
    //
     public MainController(){}
 
    // public MainController(IUserService userService){this.userService=userService;}
-    @Autowired
-   public void setUserService(IUserService userService){
-        this.userService=userService;
-    }
+//    @Autowired
+//   public void setUserService(IUserService userService){
+//        this.userService=userService;
+//    }
 
     @RequestMapping(method = RequestMethod.GET)
     public String printWelcome(ModelMap model,HttpServletRequest request, HttpServletResponse response) {
  //System.out.print(request.getRemoteUser());
-        User user= userService.getUser("admin","admin");
-
-        System.out.println(user.firstName);
+//        User user= userService.getUser("admin","admin");
+//
+//        System.out.println(user.firstName);
         String login=  request.getParameter("login");
         System.out.println("login:"+login);
         if(loginLogic.checkLogin(request.getParameter("login"),request.getParameter("password"))==true)

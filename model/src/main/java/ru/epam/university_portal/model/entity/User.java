@@ -1,50 +1,85 @@
 package ru.epam.university_portal.model.entity;
+import org.hibernate.annotations.Type;
 
+import javax.persistence.*;
+import java.io.*;
+import java.util.Date;
 /**
- * Created by maksim on 02.05.16.
+ * Created by Владос on 04.05.2016.
  */
-
-import javax.persistence.Entity;
-import javax.persistence.Table;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
 @Entity
-@Table(name= "user")
-public class User {
+@Table(name = ("user"))
+public class User implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
-    public String firstName="firstName";
-    public String lastName="firstName";
-    public String age="23";
-    public String login;
-    public String password;
-    public String idRole;
-    public User(String firstName,String lastName,String age,String login, String password,String idRole) {
-        super();
-        this.firstName=firstName;
-        this.lastName=lastName;
-        this.age=age;
-        this.login = login;
-        this.password = password;
-        this.idRole=idRole;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = ("id"))
+    private int id;
+    @Column(name = ("name"))
+    private String name;
+    @Column(name = ("lastName"))
+    private String lastName;
+    @Column(name = ("age"))
+    private java.util.Date age;
+    @Column(name = ("login"), nullable = false)
+    private String login;
+    @Column(name = ("password"), nullable = false)
+    private String password;
+    @Column(name = ("idRole"), nullable = false)
+    private int idRole;
+
+    public int getId() {
+        return id;
     }
-    public User(String login, String password) {
-        super();
-        this.login = login;
-        this.password = password;
+
+    public void setId(int id) {
+        this.id = id;
     }
-    public User() {
+
+    public String getName() {
+        return name;
     }
-   public String getPassword(){
-        return password;
+
+    public void setName(String name) {
+        this.name = name;
     }
-  /*/  public String getName() {
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public java.util.Date getAge() {
+        return age;
+    }
+
+    public void setAge(java.util.Date age) {
+        this.age = age;
+    }
+
+    public String getLogin() {
         return login;
     }
-    public void setName(String login) {
+
+    public void setLogin(String login) {
         this.login = login;
-    }/*/
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public int getIdRole() {
+        return idRole;
+    }
+
+    public void setIdRole(int idRole) {
+        this.idRole = idRole;
+    }
 }
