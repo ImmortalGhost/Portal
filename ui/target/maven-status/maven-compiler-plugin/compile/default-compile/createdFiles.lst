@@ -1,0 +1,3 @@
+ru\epam\university_portal\ui\configuration\AppConfig.class
+ru\epam\university_portal\ui\configuration\AppInitializer.class
+ru\epam\university_portal\ui\controller\MainController.class
