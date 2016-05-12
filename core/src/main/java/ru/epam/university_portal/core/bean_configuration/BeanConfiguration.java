@@ -25,7 +25,6 @@ import java.io.File;
 public class BeanConfiguration {
    @Bean
     SessionFactory sessionFactory(){
-      // File file = new File("/home/maksim/IdeaProjects/university_portal/core/src/hibernate.cfg.xml");
      ///return new org.hibernate.cfg.Configuration().configure(file).buildSessionFactory();
         return HibernateUtil.getSessionFactory();
     }
@@ -34,7 +33,7 @@ public class BeanConfiguration {
         return new UserServiceImpl(null);
     }/*/
     @Bean
-    LoginLogic loginLogic(){
+   LoginLogic loginLogic(){
         return new LoginLogic();
     }
 }

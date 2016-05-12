@@ -1,6 +1,10 @@
 package ru.epam.university_portal.core.test_dao;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import ru.epam.university_portal.core.bean_configuration.BeanConfiguration;
 import ru.epam.university_portal.core.dao.*;
 
+import ru.epam.university_portal.core.service.impl.UserServiceImpl;
 import ru.epam.university_portal.model.entity.*;
 
 import java.text.DateFormat;
@@ -13,7 +17,14 @@ import java.util.List;
 public class App {
 
     public static void main(String [] args) throws  Exception{
-        GroupAndTeacherDAO dao = new GroupAndTeacherDAO();
+
+        ApplicationContext context =
+                new AnnotationConfigApplicationContext(BeanConfiguration.class);
+        UserServiceImpl userService=
+               (UserServiceImpl) context.getBean(UserServiceImpl.class) ;
+
+
+      /*/ GroupAndTeacherDAO dao = new GroupAndTeacherDAO();
         dao.createRelation("Admin1", "Admin2", "Group");
         GroupAndTeacher groupAndTeacher = dao.getRelation("Admin1", "Admin2", "Group");
         System.out.println(groupAndTeacher.getIdTeacher() + " " + groupAndTeacher.getIdGroup());
@@ -21,7 +32,7 @@ public class App {
         List<GroupAndTeacher> l = dao.getAll();
         for (GroupAndTeacher g : l) {
             System.out.println(g.getIdGroup());
-        }
+        }/*/
 //        TeacherDAO dao = new TeacherDAO();
 //        dao.remove("log", "pas");
 //        DateFormat formatter = new SimpleDateFormat("yyyyMMdd");

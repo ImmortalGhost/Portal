@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 
+import ru.epam.university_portal.core.dao.IUserDAO;
 import ru.epam.university_portal.model.entity.User;
 
 /**
@@ -21,7 +22,7 @@ import ru.epam.university_portal.model.entity.User;
 @NamedQuery(name="findUserByLogin",
 
         query="select u from User u where u.login = :login")
-public class UserDAOImpl /*implements IUserDAO*/ {
+public class UserDAOImpl implements IUserDAO {
     private Session session;
 
     private SessionFactory sessionFactory;

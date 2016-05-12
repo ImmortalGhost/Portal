@@ -13,9 +13,6 @@ public class HibernateUtil {
     private static final SessionFactory sessionFactory;
     static {
         try {
-// create the SessionFactory from hibernate.cfg.xml
-            File file = new File("/home/maksim/IdeaProjects/university_portal/core/src/hibernate.cfg.xml");
-          // sessionFactory = new Configuration().configure(file).buildSessionFactory();
           // sessionFactory = new Configuration().configure().buildSessionFactory();
             sessionFactory=configureSessionFactory();
            // sessionFactory=configureSessionFactory();
@@ -30,9 +27,9 @@ public class HibernateUtil {
 
         Configuration configuration =new Configuration()
                 .setProperty("hibernate.connection.driver_class","com.mysql.jdbc.Driver")
-                .setProperty("hibernate.connection.url","jdbc:mysql://localhost:8081/UniversityPortal")
+                .setProperty("hibernate.connection.url","jdbc:mysql://localhost:3306/UniversityPortal")
                 .setProperty("hibernate.connection.username","root")
-                .setProperty("hibernate.connection.password","root")
+                .setProperty("hibernate.connection.password","lenin1")
                 .setProperty("hibernate.connection.pool_size","2")
                 .setProperty("hibernate.dialect","org.hibernate.dialect.MySQLDialect")
                 .setProperty("hibernate.current_session_context_class","thread")
@@ -44,7 +41,6 @@ public class HibernateUtil {
 //ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()
 //).buildServiceRegistry();
 return configuration.buildSessionFactory();
-
     }
     public static SessionFactory getSessionFactory() {
         return sessionFactory;
