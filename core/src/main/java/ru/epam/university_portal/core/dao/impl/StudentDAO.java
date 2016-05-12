@@ -1,4 +1,4 @@
-package ru.epam.university_portal.core.dao;
+package ru.epam.university_portal.core.dao.impl;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -12,6 +12,7 @@ import java.util.List;
  * Created by Владос on 09.05.2016.
  */
 public class StudentDAO extends BaseDAO {
+
     public StudentDAO() {
         super();
     }

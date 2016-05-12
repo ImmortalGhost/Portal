@@ -1,10 +1,8 @@
-package ru.epam.university_portal.core.dao;
+package ru.epam.university_portal.core.dao.impl;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import ru.epam.university_portal.model.entity.Group;
 import ru.epam.university_portal.model.entity.Messages1To1;
-import ru.epam.university_portal.model.entity.News;
 import ru.epam.university_portal.model.entity.User;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package ru.epam.university_portal.core.dao;
+package ru.epam.university_portal.core.dao.impl;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -20,4 +20,5 @@ public class BaseDAO {
         registry = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
         factory = configuration.buildSessionFactory(registry);
     }
+
 }

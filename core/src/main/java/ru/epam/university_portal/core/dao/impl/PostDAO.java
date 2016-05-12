@@ -1,15 +1,10 @@
-package ru.epam.university_portal.core.dao;
+package ru.epam.university_portal.core.dao.impl;
 
 /**
  * Created by Владос on 08.05.2016.
  */
-import org.hibernate.HibernateException;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.hibernate.cfg.Configuration;
-import org.hibernate.service.ServiceRegistry;
 import ru.epam.university_portal.model.entity.Post;
 import java.util.List;
 

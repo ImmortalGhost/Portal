@@ -1,9 +1,8 @@
-package ru.epam.university_portal.core.dao;
+package ru.epam.university_portal.core.dao.impl;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import ru.epam.university_portal.model.entity.Role;
-import ru.epam.university_portal.model.entity.User;
+import ru.epam.university_portal.model.entity.*;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -12,15 +11,15 @@ import java.util.List;
 /**
  * Created by Владос on 11.05.2016.
  */
-public class ModeratorDAO extends BaseDAO {
-    public ModeratorDAO() {
+public class ManagerDAO extends BaseDAO {
+    public ManagerDAO() {
         super();
     }
     public void create (String login, String password) throws Exception {
         RoleDAO roleDAO = new RoleDAO();
-        Role role = roleDAO.get("Moderator");
+        Role role = roleDAO.get("Manager");
         if (role == null) {
-            throw new Exception("Exception - the role 'Moderator' was not found");
+            throw new Exception("Exception - the role 'Manager' was not found");
         }
         Session session = factory.openSession();
         Transaction t = session.beginTransaction();
@@ -40,9 +39,9 @@ public class ModeratorDAO extends BaseDAO {
     public void createOrUpdate(String login, String password, String name, String lastName, Date date)
             throws Exception {
         RoleDAO roleDAO = new RoleDAO();
-        Role role = roleDAO.get("Moderator");
+        Role role = roleDAO.get("Manager");
         if (role == null) {
-            throw new Exception("Exception - the role 'Moderator' was not found");
+            throw new Exception("Exception - the role 'Manager' was not found");
         }
         Session session = factory.openSession();
         Transaction t = session.beginTransaction();
@@ -90,9 +89,9 @@ public class ModeratorDAO extends BaseDAO {
     public List<User> getAll() throws Exception {
         session = factory.openSession();
         List<Role> l1 = session.createQuery("from Role r where r.name = :name")
-                .setParameter("name", "Moderator").list();
+                .setParameter("name", "Manager").list();
         if (l1.size() == 0) {
-            throw new Exception("Exception - role Moderator has not found");
+            throw new Exception("Exception - role Manager has not found");
         }
         List<User> l2 = session.createQuery("from User u where u.idRole = :role")
                 .setParameter("role", l1.get(0).getId()).list();

@@ -1,4 +1,4 @@
-package ru.epam.university_portal.core.dao;
+package ru.epam.university_portal.core.dao.impl;
 
 import org.hibernate.Transaction;
 import ru.epam.university_portal.model.entity.Group;

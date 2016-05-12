@@ -1,29 +1,24 @@
-package ru.epam.university_portal.core.dao;
+package ru.epam.university_portal.core.dao.impl;
 
 /**
  * Created by Владос on 08.05.2016.
  */
-import org.hibernate.HibernateException;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.hibernate.cfg.Configuration;
-import org.hibernate.service.ServiceRegistry;
-import ru.epam.university_portal.model.entity.Role;
+import ru.epam.university_portal.model.entity.Group;
 import java.util.List;
 
-public class RoleDAO extends BaseDAO {
-    public RoleDAO() {
+public class GroupDAO extends BaseDAO {
+    public GroupDAO() {
         super();
     }
 
     public void create(String name) {
         Session session = factory.openSession();
         Transaction t = session.beginTransaction();
-        Role r = new Role();
-        r.setName(name);
-        session.save(r);
+        Group g = new Group();
+        g.setName(name);
+        session.save(g);
         t.commit();
         session.close();
     }
@@ -31,24 +26,24 @@ public class RoleDAO extends BaseDAO {
     public void remove(String name) {
         Session session = factory.openSession();
         Transaction t = session.beginTransaction();
-        List<Role> l = session
-                .createQuery("FROM Role r where r.name = :parameter")
+        List<Group> l = session
+                .createQuery("FROM Group g where g.name = :parameter")
                 .setParameter("parameter", name).list();
         if (l.size() > 0) {
-            for (Role r : l) {
-                session.delete(r);
+            for (Group g : l) {
+                session.delete(g);
             }
             t.commit();
         }
         session.close();
     }
 
-    public Role get(String name) {
+    public Group get(String name) {
         Session session = factory.openSession();
         Transaction t = session.beginTransaction();
-        List<Role> l = session
-                .createQuery("FROM Role r where r.name = :parameter")
-                .setParameter("parameter", name).list();
+        List<Group> l = session
+                .createQuery("FROM Group g where g.name = :parameter")
+                        .setParameter("parameter", name).list();
         if (l.size() > 0) {
             return l.get(0);
         }
@@ -56,12 +51,11 @@ public class RoleDAO extends BaseDAO {
             return null;
         }
     }
-
-    public Role get(int id) {
+    public Group get(int id) {
         Session session = factory.openSession();
         Transaction t = session.beginTransaction();
-        List<Role> l = session
-                .createQuery("FROM Role r where r.name = :parameter")
+        List<Group> l = session
+                .createQuery("FROM Group g where g.name = :parameter")
                 .setParameter("parameter", id).list();
         if (l.size() > 0) {
             return l.get(0);
@@ -71,10 +65,10 @@ public class RoleDAO extends BaseDAO {
         }
     }
 
-    public List<Role> getAll(){
+    public List<Group> getAll(){
         Session session = factory.openSession();
         Transaction t = session.beginTransaction();
-        List<Role> l = session.createQuery("FROM Role").list();
+        List<Group> l = session.createQuery("FROM Group").list();
         return l;
     }
 }
