@@ -16,14 +16,14 @@ import java.util.List;
  */
 
 @Repository
-public class Messages1To1DAO extends BaseDAO implements IMessages1To1DAO{
+public class Messages1To1DAO  implements IMessages1To1DAO{
     public Messages1To1DAO() {
         super();
     }
-
+    Session session=null;
     private SessionFactory factory;
     @Autowired
-    public Messages1To1DAO(SessionFactory sessionFactory) {
+    public Messages1To1DAO(SessionFactory factory) {
         this.factory = factory;
     }
 

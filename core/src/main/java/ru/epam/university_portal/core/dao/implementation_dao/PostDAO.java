@@ -13,11 +13,11 @@ import ru.epam.university_portal.model.entity.Post;
 import java.util.List;
 
 @Repository
-public class PostDAO extends BaseDAO implements IPostDAO {
+public class PostDAO  implements IPostDAO {
     public PostDAO() {
         super();
     }
-
+    Session session=null;
     private SessionFactory factory;
     @Autowired
     public PostDAO(SessionFactory factory) {

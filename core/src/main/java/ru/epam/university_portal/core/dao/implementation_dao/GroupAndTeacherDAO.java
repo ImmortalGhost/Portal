@@ -1,5 +1,6 @@
 package ru.epam.university_portal.core.dao.implementation_dao;
 
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,12 +18,12 @@ import java.util.List;
  * Created by Владос on 11.05.2016.
  */
 @Repository
-public class GroupAndTeacherDAO extends BaseDAO implements IGroupAndTeacherDAO{
+public class GroupAndTeacherDAO implements IGroupAndTeacherDAO{
 
-    public GroupAndTeacherDAO() {
+    /*/public GroupAndTeacherDAO() {
         super();
-    }
-
+    }/*/
+    Session session=null;
     private SessionFactory  factory;
     @Autowired
     public GroupAndTeacherDAO(SessionFactory  factory) {

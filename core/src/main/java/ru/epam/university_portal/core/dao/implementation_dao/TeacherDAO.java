@@ -16,11 +16,11 @@ import java.util.List;
  */
 
 @Repository
-public class TeacherDAO extends BaseDAO implements ITeacherDAO{
-    public TeacherDAO() {
+public class TeacherDAO  implements ITeacherDAO{
+    /*/public TeacherDAO() {
         super();
-    }
-
+    }/*/
+    Session session=null;
     private SessionFactory factory;
     @Autowired
     public TeacherDAO(SessionFactory factory) {

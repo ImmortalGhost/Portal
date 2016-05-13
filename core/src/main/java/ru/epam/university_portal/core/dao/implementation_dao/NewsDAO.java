@@ -1,5 +1,6 @@
 package ru.epam.university_portal.core.dao.implementation_dao;
 
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,11 +16,11 @@ import java.util.List;
  */
 
 @Repository
-public class NewsDAO extends BaseDAO implements INewsDAO{
+public class NewsDAO  implements INewsDAO{
     public NewsDAO() {
         super();
     }
-
+    Session session=null;
     private SessionFactory factory;
     @Autowired
     public NewsDAO(SessionFactory factory) {

@@ -16,11 +16,11 @@ import java.util.List;
  * Created by Владос on 11.05.2016.
  */
 @Repository
-public class ManagerDAO extends BaseDAO implements IManagerDAO{
-    public ManagerDAO() {
+public class ManagerDAO implements IManagerDAO{
+   /*/ public ManagerDAO() {
         super();
-    }
-
+    }/*/
+    Session session=null;
     private SessionFactory factory;
     @Autowired
     public ManagerDAO(SessionFactory factory) {

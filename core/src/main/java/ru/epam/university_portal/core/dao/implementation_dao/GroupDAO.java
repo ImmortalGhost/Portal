@@ -12,11 +12,11 @@ import ru.epam.university_portal.core.dao.interface_dao.IGroupDAO;
 import ru.epam.university_portal.model.entity.Group;
 import java.util.List;
 @Repository
-public class GroupDAO extends BaseDAO implements IGroupDAO {
+public class GroupDAO  implements IGroupDAO {
     public GroupDAO() {
         super();
     }
-
+    Session session=null;
     private SessionFactory factory;
     @Autowired
     public GroupDAO(SessionFactory factory) {

@@ -13,11 +13,11 @@ import ru.epam.university_portal.model.entity.Role;
 import java.util.List;
 
 @Repository
-public class RoleDAO extends BaseDAO implements IRoleDAO {
+public class RoleDAO implements IRoleDAO {
     public RoleDAO() {
         super();
     }
-
+    Session session=null;
     private SessionFactory factory;
     @Autowired
     public RoleDAO(SessionFactory factory) {

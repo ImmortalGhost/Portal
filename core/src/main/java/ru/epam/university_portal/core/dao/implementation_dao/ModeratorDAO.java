@@ -18,11 +18,11 @@ import java.util.List;
  */
 
 @Repository
-public class ModeratorDAO extends BaseDAO implements IModeratorDAO {
-    public ModeratorDAO() {
+public class ModeratorDAO  implements IModeratorDAO {
+   /*/ public ModeratorDAO() {
         super();
-    }
-
+    }/*/
+    Session session=null;
     private SessionFactory factory;
     @Autowired
     public ModeratorDAO(SessionFactory factory) {

@@ -5,6 +5,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import ru.epam.university_portal.core.dao.interface_dao.IStudentDAO;
 import ru.epam.university_portal.model.entity.*;
 
 import java.util.ArrayList;
@@ -17,12 +18,12 @@ import java.util.List;
 
 
 @Repository
-public class StudentDAO extends BaseDAO {
+public class StudentDAO implements IStudentDAO{
 
-    public StudentDAO() {
+   /*/ public StudentDAO() {
         super();
-    }
-
+    }/*/
+    Session session=null;
     private SessionFactory factory;
     @Autowired
     public StudentDAO(SessionFactory factory) {
