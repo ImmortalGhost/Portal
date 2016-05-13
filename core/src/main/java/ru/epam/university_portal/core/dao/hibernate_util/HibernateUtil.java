@@ -13,11 +13,8 @@ public class HibernateUtil {
     private static final SessionFactory sessionFactory;
     static {
         try {
-          // sessionFactory = new Configuration().configure().buildSessionFactory();
             sessionFactory=configureSessionFactory();
-           // sessionFactory=configureSessionFactory();
         } catch (Throwable e) {
-// make sure you log the exception, as it might be swallowed
             System.err.println("Initial SessionFactory creation failed." + e);
             throw new ExceptionInInitializerError(e);
         }
@@ -27,7 +24,7 @@ public class HibernateUtil {
 
         Configuration configuration =new Configuration()
                 .setProperty("hibernate.connection.driver_class","com.mysql.jdbc.Driver")
-                .setProperty("hibernate.connection.url","jdbc:mysql://localhost:3306/UniversityPortal")
+                .setProperty("hibernate.connection.url","jdbc:mysql://localhost:3306/letichatdb")
                 .setProperty("hibernate.connection.username","root")
                 .setProperty("hibernate.connection.password","lenin1")
                 .setProperty("hibernate.connection.pool_size","2")
@@ -36,7 +33,16 @@ public class HibernateUtil {
                 .setProperty("hibernate.hbm2ddl.auto","update")
                 .setProperty("hibernate.show_sql","true")
                 .addPackage("ru")
-                .addAnnotatedClass(ru.epam.university_portal.model.entity.User.class);
+                .addAnnotatedClass(ru.epam.university_portal.model.entity.User.class)
+                .addAnnotatedClass(ru.epam.university_portal.model.entity.GroupAndTeacher.class)
+                .addAnnotatedClass(ru.epam.university_portal.model.entity.Group.class)
+                .addAnnotatedClass(ru.epam.university_portal.model.entity.Messages1To1.class)
+                .addAnnotatedClass(ru.epam.university_portal.model.entity.MessagesFromNews.class)
+                .addAnnotatedClass(ru.epam.university_portal.model.entity.News.class)
+                .addAnnotatedClass(ru.epam.university_portal.model.entity.Post.class)
+                .addAnnotatedClass(ru.epam.university_portal.model.entity.Role.class)
+                .addAnnotatedClass(ru.epam.university_portal.model.entity.Student.class)
+                .addAnnotatedClass(ru.epam.university_portal.model.entity.Teacher.class);
 
 //ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()
 //).buildServiceRegistry();

@@ -23,10 +23,10 @@ public class StudentDAO extends BaseDAO {
         super();
     }
 
-    private SessionFactory sessionFactory;
+    private SessionFactory factory;
     @Autowired
-    public StudentDAO(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
+    public StudentDAO(SessionFactory factory) {
+        this.factory = factory;
     }
 
 

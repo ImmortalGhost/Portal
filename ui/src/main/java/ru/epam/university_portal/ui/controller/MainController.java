@@ -1,15 +1,11 @@
 package ru.epam.university_portal.ui.controller;
-import org.springframework.beans.factory.annotation.Autowired;
-import ru.epam.university_portal.core.dao.impl.UserDAOImpl;
 import ru.epam.university_portal.core.logic.LoginLogic;
-import ru.epam.university_portal.core.service.IUserService;
-import ru.epam.university_portal.core.service.impl.UserServiceImpl;
+import ru.epam.university_portal.core.service.interface_service.IUserService;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import ru.epam.university_portal.model.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

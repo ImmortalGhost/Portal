@@ -10,15 +10,16 @@ import org.hibernate.service.ServiceRegistry;
  * Created by Владос on 09.05.2016.
  */
 public class BaseDAO {
-    Configuration configuration;
+    Session session;
+   /*/ Configuration configuration;
     ServiceRegistry registry;
     SessionFactory factory;
-    Session session;
+
     public BaseDAO() {
-      /*/  configuration = new Configuration();
+       configuration = new Configuration();
         configuration.configure();
         registry = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
-        factory = configuration.buildSessionFactory(registry);/*/
+        factory = configuration.buildSessionFactory(registry);
     }
-
+/*/
 }

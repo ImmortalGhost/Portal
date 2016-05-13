@@ -21,10 +21,10 @@ public class Messages1To1DAO extends BaseDAO implements IMessages1To1DAO{
         super();
     }
 
-    private SessionFactory sessionFactory;
+    private SessionFactory factory;
     @Autowired
     public Messages1To1DAO(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
+        this.factory = factory;
     }
 
     public void create(String fromName, String fromLastName, String toName, String toLastName, String message) throws Exception {

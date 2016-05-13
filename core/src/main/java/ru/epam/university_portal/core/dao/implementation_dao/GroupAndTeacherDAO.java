@@ -23,10 +23,10 @@ public class GroupAndTeacherDAO extends BaseDAO implements IGroupAndTeacherDAO{
         super();
     }
 
-    private SessionFactory sessionFactory;
+    private SessionFactory  factory;
     @Autowired
-    public GroupAndTeacherDAO(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
+    public GroupAndTeacherDAO(SessionFactory  factory) {
+        this. factory =  factory;
     }
 
     public void createRelation(String nameTeacher, String lastNameTeacher, String nameGroup) throws Exception {

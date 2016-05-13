@@ -21,10 +21,10 @@ public class ManagerDAO extends BaseDAO implements IManagerDAO{
         super();
     }
 
-    private SessionFactory sessionFactory;
+    private SessionFactory factory;
     @Autowired
-    public ManagerDAO(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
+    public ManagerDAO(SessionFactory factory) {
+        this.factory = factory;
     }
 
 

@@ -23,10 +23,10 @@ public class MessagesFromNewsDAO extends BaseDAO implements IMessagesFromNewsDAO
         super();
     }
 
-    private SessionFactory sessionFactory;
+    private SessionFactory factory;
     @Autowired
-    public MessagesFromNewsDAO(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
+    public MessagesFromNewsDAO(SessionFactory factory) {
+        this.factory = factory;
     }
 
 

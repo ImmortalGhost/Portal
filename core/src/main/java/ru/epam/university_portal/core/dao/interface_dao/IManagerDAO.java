@@ -1,12 +1,7 @@
 package ru.epam.university_portal.core.dao.interface_dao;
 
-import org.hibernate.Session;
-import org.hibernate.Transaction;
-import ru.epam.university_portal.core.dao.impl.RoleDAO;
-import ru.epam.university_portal.model.entity.Role;
 import ru.epam.university_portal.model.entity.User;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 

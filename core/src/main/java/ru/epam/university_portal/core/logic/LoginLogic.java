@@ -2,7 +2,7 @@ package ru.epam.university_portal.core.logic;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import ru.epam.university_portal.core.service.IUserService;
+import ru.epam.university_portal.core.service.interface_service.IUserService;
 
 /**
  * Created by maksim on 05.05.16.

@@ -20,10 +20,10 @@ public class NewsDAO extends BaseDAO implements INewsDAO{
         super();
     }
 
-    private SessionFactory sessionFactory;
+    private SessionFactory factory;
     @Autowired
-    public NewsDAO(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
+    public NewsDAO(SessionFactory factory) {
+        this.factory = factory;
     }
 
 

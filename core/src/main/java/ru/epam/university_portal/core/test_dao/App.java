@@ -2,13 +2,18 @@ package ru.epam.university_portal.core.test_dao;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import ru.epam.university_portal.core.bean_configuration.BeanConfiguration;
-import ru.epam.university_portal.core.dao.*;
 
-import ru.epam.university_portal.core.service.impl.UserServiceImpl;
-import ru.epam.university_portal.model.entity.*;
+import ru.epam.university_portal.core.dao.implementation_dao.MessagesFromNewsDAO;
+import ru.epam.university_portal.core.dao.interface_dao.IMessagesFromNewsDAO;
+import ru.epam.university_portal.core.service.implementation_service.GroupAndTeacherService;
+import ru.epam.university_portal.core.service.implementation_service.UserServiceImpl;
+import ru.epam.university_portal.core.service.interface_service.IGroupAndTeacherService;
+import ru.epam.university_portal.model.entity.GroupAndTeacher;
+import ru.epam.university_portal.model.entity.User;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -23,6 +28,29 @@ public class App {
         UserServiceImpl userService=
                (UserServiceImpl) context.getBean(UserServiceImpl.class) ;
 
+      //  IMessagesFromNewsDAO dao = new MessagesFromNewsDAO();
+       // dao.create("Вася", "Пупкин", "One", "Получилось, бляяяяядь", "Здарова !");
+
+       /*/ DateFormat formatter = new SimpleDateFormat("yyyyMMdd");
+        java.util.Date date = (java.util.Date) formatter.parse("20000419");
+
+        User user =new User("FirstName","LastName","login1","password1",1,date);
+        userService.addUser(user);/*/
+
+
+        IGroupAndTeacherService groupAndTeacherService =
+
+                (GroupAndTeacherService)context.getBean(GroupAndTeacherService.class);
+        groupAndTeacherService.createRelation("Admin1", "Admin2", "Group");
+
+     GroupAndTeacher groupAndTeacher= groupAndTeacherService.getRelation("Admin1", "Admin2", "Group");
+
+        System.out.println(groupAndTeacher.getIdTeacher() + " " + groupAndTeacher.getIdGroup());
+       List<GroupAndTeacher> l = groupAndTeacherService.getAll();
+        for (GroupAndTeacher g : l) {
+            System.out.println(g.getIdGroup());
+        }
+
 
       /*/ GroupAndTeacherDAO dao = new GroupAndTeacherDAO();
         dao.createRelation("Admin1", "Admin2", "Group");
@@ -32,7 +60,8 @@ public class App {
         List<GroupAndTeacher> l = dao.getAll();
         for (GroupAndTeacher g : l) {
             System.out.println(g.getIdGroup());
-        }/*/
+        }
+        /*/
 //        TeacherDAO dao = new TeacherDAO();
 //        dao.remove("log", "pas");
 //        DateFormat formatter = new SimpleDateFormat("yyyyMMdd");

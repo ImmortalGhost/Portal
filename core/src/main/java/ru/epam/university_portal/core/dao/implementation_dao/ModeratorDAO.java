@@ -23,10 +23,10 @@ public class ModeratorDAO extends BaseDAO implements IModeratorDAO {
         super();
     }
 
-    private SessionFactory sessionFactory;
+    private SessionFactory factory;
     @Autowired
-    public ModeratorDAO(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
+    public ModeratorDAO(SessionFactory factory) {
+        this.factory = factory;
     }
 
 

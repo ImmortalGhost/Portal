@@ -17,10 +17,10 @@ public class GroupDAO extends BaseDAO implements IGroupDAO {
         super();
     }
 
-    private SessionFactory sessionFactory;
+    private SessionFactory factory;
     @Autowired
-    public GroupDAO(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
+    public GroupDAO(SessionFactory factory) {
+        this.factory = factory;
     }
 
     public void create(String name) {

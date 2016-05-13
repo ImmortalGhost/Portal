@@ -18,10 +18,10 @@ public class RoleDAO extends BaseDAO implements IRoleDAO {
         super();
     }
 
-    private SessionFactory sessionFactory;
+    private SessionFactory factory;
     @Autowired
-    public RoleDAO(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
+    public RoleDAO(SessionFactory factory) {
+        this.factory = factory;
     }
 
 

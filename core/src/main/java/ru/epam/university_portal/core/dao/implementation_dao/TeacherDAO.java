@@ -21,10 +21,10 @@ public class TeacherDAO extends BaseDAO implements ITeacherDAO{
         super();
     }
 
-    private SessionFactory sessionFactory;
+    private SessionFactory factory;
     @Autowired
-    public TeacherDAO(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
+    public TeacherDAO(SessionFactory factory) {
+        this.factory = factory;
     }
 
 

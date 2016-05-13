@@ -18,10 +18,10 @@ public class PostDAO extends BaseDAO implements IPostDAO {
         super();
     }
 
-    private SessionFactory sessionFactory;
+    private SessionFactory factory;
     @Autowired
-    public PostDAO(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
+    public PostDAO(SessionFactory factory) {
+        this.factory = factory;
     }
 
 
