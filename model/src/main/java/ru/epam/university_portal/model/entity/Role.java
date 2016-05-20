@@ -14,6 +14,17 @@ public class Role implements Serializable {
     @Column(name = ("name"), nullable = false)
     private String name;
 
+    public Role(){}
+    public Role(int id,String name){
+        this.id=id;
+        this.name=name;
+    }
+@Override
+public boolean equals(Object object){
+    Role other=(Role)object;
+    return id== other.id&&name.equals(other.name);
+
+}
     public int getId() {
         return id;
     }
