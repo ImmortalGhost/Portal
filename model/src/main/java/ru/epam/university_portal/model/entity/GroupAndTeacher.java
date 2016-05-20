@@ -17,6 +17,35 @@ public class GroupAndTeacher implements Serializable {
     @Column(name = ("idTeacher"), nullable = false)
     private int idTeacher;
 
+
+    public GroupAndTeacher(){}
+    public GroupAndTeacher(int id,int idGroup,int idTeacher){
+        this.id=id;
+        this.idGroup=idGroup;
+        this.idTeacher=idTeacher;
+    }
+   @Override
+    public boolean equals(Object object){
+        GroupAndTeacher other=(GroupAndTeacher)object;
+        if(id!=other.id)
+            return false;
+        if(idGroup!=other.idGroup)
+            return false;
+        if(idTeacher!=other.idTeacher)
+            return false;
+        return true;
+    }
+/*/
+   @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + id;
+        result = prime * result + idGroup;
+        result = prime * result + idTeacher;
+        return result;
+    }/*/
+
     public int getId() {
         return id;
     }
