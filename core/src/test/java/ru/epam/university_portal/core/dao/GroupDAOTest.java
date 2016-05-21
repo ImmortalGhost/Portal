@@ -27,7 +27,7 @@ public class GroupDAOTest {
     }
     @Test
     public void testGetGroupByName()throws Exception{
-
+System.out.println("GROUPDAOTEST");
         Assert.assertEquals(group,groupDAOTest.get("Group1"));
 
     }

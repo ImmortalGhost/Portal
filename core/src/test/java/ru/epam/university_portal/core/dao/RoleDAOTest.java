@@ -27,7 +27,7 @@ public class RoleDAOTest {
     }
     @Test
     public void testGetPostByName()throws Exception{
-
+        System.out.println("ROLEDAOTEST");
         Assert.assertEquals(role,roleDAOTest.get("Role1"));
 
     }

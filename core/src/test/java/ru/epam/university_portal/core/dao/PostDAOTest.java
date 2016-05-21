@@ -28,7 +28,7 @@ public class PostDAOTest {
     }
     @Test
     public void testGetPostByName()throws Exception{
-
+        System.out.println("POSTDAOTEST");
         Assert.assertEquals(post,postDAOTest.get("Post1"));
 
     }

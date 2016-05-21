@@ -1,13 +1,13 @@
 package ru.epam.university_portal.core.test;
 
-import ru.epam.university_portal.core.dao.GroupAndTeacherDAOTest;
-import ru.epam.university_portal.core.dao.GroupDAOTest;
-import ru.epam.university_portal.core.dao.PostDAOTest;
-import ru.epam.university_portal.core.dao.RoleDAOTest;
+import ru.epam.university_portal.core.dao.*;
 
 /**
  * Created by maksim on 20.05.16.
  */
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
 public class Test {
 
     public static void main(String []argc)throws Exception{
@@ -25,11 +25,14 @@ public class Test {
         postDAOTest.setUp();
         postDAOTest.testGetPostByName();
         postDAOTest.freeMemory();/*/
-        RoleDAOTest roleDAOTest=new RoleDAOTest();
+       /*/ RoleDAOTest roleDAOTest=new RoleDAOTest();
         roleDAOTest.setUp();
         roleDAOTest.testGetPostByName();
-        roleDAOTest.freeMemory();
-
+        roleDAOTest.freeMemory();/*/
+        Result result = JUnitCore.runClasses(DAOTests.class);
+        for (Failure failure : result.getFailures()) {
+            System.out.println("не пройден тест: " + failure.toString());
+        }
 
     }
 }
