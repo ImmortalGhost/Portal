@@ -1,39 +1,17 @@
 package ru.epam.university_portal.ui.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.ModelAndView;
 import ru.epam.university_portal.core.business.AdminService;
 import ru.epam.university_portal.core.business.StudentService;
 import ru.epam.university_portal.core.business.TeacherService;
-import ru.epam.university_portal.core.configuration.ConfigurationForDAO;
-import ru.epam.university_portal.core.dao.RoleDAO;
-import ru.epam.university_portal.core.dao.StudentDAO;
-import ru.epam.university_portal.core.dao.TeacherDAO;
-import ru.epam.university_portal.core.dao.UserDAO;
-import ru.epam.university_portal.core.testdao.Conf;
-import ru.epam.university_portal.core.testdao.Dev;
-import ru.epam.university_portal.core.testdao.Test;
-import ru.epam.university_portal.model.entity.Group;
-import ru.epam.university_portal.model.entity.Role;
-import ru.epam.university_portal.model.entity.Teacher;
 import ru.epam.university_portal.model.entity.User;
-import ru.epam.university_portal.ui.initialize.MyWebInitializer;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import java.util.ArrayList;
 import java.util.List;
 
 @Controller

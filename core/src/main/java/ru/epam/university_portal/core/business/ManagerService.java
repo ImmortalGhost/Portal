@@ -77,7 +77,7 @@ public class ManagerService {
             newsDAO.create(groupName, newsName);
         }
         catch (Exception e) {
-            //
+            e.printStackTrace();
         }
     }
     public List<News> getAllNewsByNameGroup(String groupName) {
@@ -111,7 +111,7 @@ public class ManagerService {
             messages1To1DAO.create(nameFrom, lastNameFrom, nameTo, lastNameTo, message);
         }
         catch(Exception e) {
-            //
+            e.printStackTrace();
         }
     }
 //    public static void createNewChatFromAndTo(String name, String lastName, String nameSubject, String lastNameSubject) {}
@@ -122,7 +122,9 @@ public class ManagerService {
         try {
             managerDAO.createOrUpdate(login, password, name, lastName, age);
         }
-        catch (Exception e) {}
+        catch (Exception e) {
+            e.printStackTrace();
+        }
     }
     public List<MessagesFromNews> getAllMessagesFromNewsByNameNewsAndNameGroup(String nameNews, String nameGroup) {
         try {
@@ -144,7 +146,9 @@ public class ManagerService {
         try {
             messagesFromNewsDAO.create(nameFrom, lastNameFrom, nameNews, groupName, message);
         }
-        catch (Exception e) {}
+        catch (Exception e) {
+            e.printStackTrace();
+        }
     }
     public String[] getEnteredUser() {
         Authentication authentication =  SecurityContextHolder.getContext().getAuthentication();
@@ -172,7 +176,7 @@ public class ManagerService {
             messagesFromNewsDAO.update(nameSayer, lastNameSayer, nameNews, groupName, oldMessage, newMessage);
         }
         catch(Exception e) {
-            //
+            e.printStackTrace();
         }
     }
     public void renameNews(String groupName, String oldName, String newName) {
@@ -183,7 +187,7 @@ public class ManagerService {
             newsDAO.removeNewsByGroupAndTitle(groupName, nameNews);
         }
         catch (Exception e) {
-            //
+            e.printStackTrace();
         }
     }
     public void deleteMessageFromNews(String nameFrom, String lastNameFrom, String groupName, String nameNews, String message) {
@@ -191,7 +195,7 @@ public class ManagerService {
             messagesFromNewsDAO.remove(nameFrom, lastNameFrom, groupName, nameNews, message);
         }
         catch(Exception e) {
-            //
+            e.printStackTrace();
         }
     }
     public String getAgeString(Date age) {

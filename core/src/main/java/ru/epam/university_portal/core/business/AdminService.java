@@ -93,14 +93,18 @@ public class AdminService {
         try {
             studentDAO.remove(user.getLogin(), user.getPassword());
         }
-        catch(Exception e) {}
+        catch(Exception e) {
+            e.printStackTrace();
+        }
     }
     public void deleteTeacher(String name, String lastName) {
         user = userDAO.get(name, lastName);
         try {
             teacherDAO.remove(user.getLogin(), user.getPassword());
         }
-        catch(Exception e) {}
+        catch(Exception e) {
+            e.printStackTrace();
+        }
     }
     public void addNewGroup(String groupName) {
         groupDAO.create(groupName);
@@ -115,67 +119,89 @@ public class AdminService {
         try {
             studentDAO.create(login, password, nameGroup);
         }
-        catch(Exception e) {}
+        catch(Exception e) {
+            e.printStackTrace();
+        }
     }
     public void addNewStudent(String login, String password, String nameGroup, String name, String lastName, Date date) {
         try {
             studentDAO.createOrUpdate(login, password, nameGroup, name, lastName, date);
         }
-        catch(Exception e) {}
+        catch(Exception e) {
+            e.printStackTrace();
+        }
     }
     public void addNewTeacher(String login, String password, String namePost) {
         try {
             teacherDAO.create(login, password, namePost);
         }
-        catch(Exception e) {}
+        catch(Exception e) {
+            e.printStackTrace();
+        }
     }
     public void addNewTeacher(String login, String password, String namePost, String name, String lastName, Date date) {
         try {
             teacherDAO.createOrUpdate(login, password, namePost, name, lastName, date);
         }
-        catch(Exception e) {}
+        catch(Exception e) {
+            e.printStackTrace();
+        }
     }
     public void addNewManager(String login, String password) {
         try {
             managerDAO.create(login, password);
         }
-        catch(Exception e) {}
+        catch(Exception e) {
+            e.printStackTrace();
+        }
     }
     public void addNewManager(String login, String password, String name, String lastName, Date date) {
         try {
             managerDAO.createOrUpdate(login, password, name, lastName, date);
         }
-        catch(Exception e) {}
+        catch(Exception e) {
+            e.printStackTrace();
+        }
     }
     public void addNewAdmin(String login, String password) {
         try {
             adminDAO.create(login, password);
         }
-        catch(Exception e) {}
+        catch(Exception e) {
+            e.printStackTrace();
+        }
     }
     public void addNewAdmin(String login, String password, String name, String lastName, Date date) {
         try {
             adminDAO.createOrUpdate(login, password, name, lastName, date);
         }
-        catch(Exception e) {}
+        catch(Exception e) {
+            e.printStackTrace();
+        }
     }
     public void saveChangesStudent(String name, String lastName, Date age, String group, String login, String password) {
         try {
             studentDAO.createOrUpdate(login, password, group, name, lastName, age);
         }
-        catch (Exception e) {}
+        catch (Exception e) {
+            e.printStackTrace();
+        }
     }
     public void saveChangesTeacher(String name, String lastName, Date age, String post, String login, String password) {
         try {
             teacherDAO.createOrUpdate(login, password, post, name, lastName, age);
         }
-        catch (Exception e) {}
+        catch (Exception e) {
+            e.printStackTrace();
+        }
     }
     public void saveChangesManager(String name, String lastName, Date age, String login, String password) {
         try {
             managerDAO.createOrUpdate(login, password, name, lastName, age);
         }
-        catch (Exception e) {}
+        catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public Student getStudentInformationByNameAndLastName(String name, String lastName) {

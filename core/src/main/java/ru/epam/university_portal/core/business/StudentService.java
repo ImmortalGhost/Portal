@@ -1,13 +1,7 @@
 package ru.epam.university_portal.core.business;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Configurable;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.stereotype.Component;
 import ru.epam.university_portal.core.dao.*;
-import ru.epam.university_portal.core.testdao.Dev;
 import ru.epam.university_portal.model.entity.*;
 
 import java.util.ArrayList;
@@ -77,7 +71,7 @@ public class StudentService {
             newsDAO.create(groupName, newsName);
         }
         catch (Exception e) {
-            //
+            e.printStackTrace();
         }
     }
     public List<String> getAllNewsNamesByNameGroup(String groupName) { return newsDAO.getAllNamesByGroup(groupName);
@@ -95,7 +89,7 @@ public class StudentService {
             messages1To1DAO.create(nameFrom, lastNameFrom, nameTo, lastNameTo, message);
         }
         catch(Exception e) {
-            //
+            e.printStackTrace();
         }
     }
     public void saveChangesStudent(String name, String lastName, Date age, String group, String login, String password) {
@@ -103,6 +97,7 @@ public class StudentService {
             studentDAO.createOrUpdate(login, password, group, name, lastName, age);
         }
         catch (Exception e) {
+            e.printStackTrace();
         }
     }
     public List<MessagesFromNews> getAllMessagesFromNewsByNameNewsAndNameGroup(String nameNews, String nameGroup) {
@@ -118,7 +113,9 @@ public class StudentService {
         try {
             messagesFromNewsDAO.create(nameFrom, lastNameFrom, nameNews, groupName, message);
         }
-        catch (Exception e) {}
+        catch (Exception e) {
+            e.printStackTrace();
+        }
     }
     public void signIn(String name, String lastName, HttpSession session) {
         session.setAttribute("name", name);
@@ -241,7 +238,7 @@ public class StudentService {
             }
         }
         catch(Exception e) {
-            //
+            e.printStackTrace();
         }
     }
     public Teacher getTeacherInformationByNameAndLastName(String name, String lastName) {

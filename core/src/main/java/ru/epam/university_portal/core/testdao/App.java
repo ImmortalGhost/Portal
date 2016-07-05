@@ -29,14 +29,6 @@ import java.util.List;
  */
 public class App {
     public static void main(String [] args) throws  Exception{
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ConfigurationForDAO.class);
-        AdminService adminService = context.getBean(AdminService.class);
-        Student student = adminService.getStudentInformationByNameAndLastName("Студент", "Типичный");
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(1993, 1, 20);
-        Date date = calendar.getTime();
-        adminService.saveChangesStudent("Студент", "Типичный", date, "Получилось", "1", "1");
-        User user = adminService.getUserInformationByNameAndLastName("Студент", "Типичный");
-        System.out.println(adminService.getAgeString(user.getAge()));
+        // Here i experimented
     }
 }

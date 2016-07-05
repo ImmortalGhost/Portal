@@ -75,7 +75,7 @@ public class TeacherService {
             newsDAO.create(groupName, newsName);
         }
         catch (Exception e) {
-            //
+            e.printStackTrace();
         }
     }
     public List<String> getAllNewsNamesByNameGroup(String groupName) { return newsDAO.getAllNamesByGroup(groupName);
@@ -93,7 +93,7 @@ public class TeacherService {
             messages1To1DAO.create(nameFrom, lastNameFrom, nameTo, lastNameTo, message);
         }
         catch(Exception e) {
-            //
+            e.printStackTrace();
         }
     }
     public void saveChangesTeacher(String name, String lastName, Date age, String group, String login, String password) {
@@ -101,6 +101,7 @@ public class TeacherService {
             teacherDAO.createOrUpdate(login, password, group, name, lastName, age);
         }
         catch (Exception e) {
+            e.printStackTrace();
         }
     }
     public List<MessagesFromNews> getAllMessagesFromNewsByNameNewsAndNameGroup(String nameNews, String nameGroup) {
@@ -116,7 +117,9 @@ public class TeacherService {
         try {
             messagesFromNewsDAO.create(nameFrom, lastNameFrom, nameNews, groupName, message);
         }
-        catch (Exception e) {}
+        catch (Exception e) {
+            e.printStackTrace();
+        }
     }
     public void signIn(String name, String lastName, HttpSession session) {
         session.setAttribute("name", name);
@@ -247,7 +250,7 @@ public class TeacherService {
             }
         }
         catch(Exception e) {
-            //
+            e.printStackTrace();
         }
     }
     public Teacher getTeacherInformationByNameAndLastName(String name, String lastName) {

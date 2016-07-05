@@ -1,7 +1,6 @@
 package ru.epam.university_portal.ui.initialize;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-import ru.epam.university_portal.core.testdao.Conf;
 import ru.epam.university_portal.ui.config.SpringWebConfig;
 
 public class MyWebInitializer extends

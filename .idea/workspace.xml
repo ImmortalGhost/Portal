@@ -5,136 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c600c030-f1c7-4073-93de-055bdc944328" name="Default" comment="DAO Beans and Pojo beans + Student logic">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ui_Web_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_0_b01.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/configuration/ConfigurationForDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/BaseDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/UserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/Conf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/resources/beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/resources/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/BaseController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/TeacherController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/devilcrutch/AllUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/devilcrutch/StudentAndUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/devilcrutch/TeacherAndUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/initialize/MyWebInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/accessDenied.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/addNewGroup.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/addNewNews.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/chat.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/create.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/editStudent.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/editStudentForStudent.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/editTeacher.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/editTeacherForTeacher.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/falseAuthorization.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/groupChoiceTeacher.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/informationStudent.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/newsChoice.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/newsChoiceTeacher.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/renameGroup.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/selectStudent.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/viewBuddyList.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/viewNews.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/viewNewsTeacher.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/web.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/bean_configuration/BeanConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/hibernate_util/HibernateUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/implementation_dao/UserDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/interface_dao/IGroupAndTeacherDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/interface_dao/IGroupDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/interface_dao/IManagerDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/interface_dao/IMessages1To1DAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/interface_dao/IMessagesFromNewsDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/interface_dao/IModeratorDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/interface_dao/INewsDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/interface_dao/IPostDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/interface_dao/IRoleDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/interface_dao/IStudentDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/interface_dao/ITeacherDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/interface_dao/IUserDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/logic/LoginLogic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/implementation_service/GroupAndTeacherService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/implementation_service/GroupService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/implementation_service/ManagerService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/implementation_service/Messages1To1Service.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/implementation_service/MessagesFromNewsService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/implementation_service/ModeratorService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/implementation_service/NewsService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/implementation_service/PostService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/implementation_service/RoleService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/implementation_service/StudentService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/implementation_service/TeacherService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/implementation_service/UserServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/interface_service/IGroupAndTeacherService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/interface_service/IGroupService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/interface_service/IManagerService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/interface_service/IMessages1To1Service.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/interface_service/IMessagesFromNewsService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/interface_service/IModeratorService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/interface_service/INewsService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/interface_service/IPostService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/interface_service/IRoleService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/interface_service/IStudentService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/interface_service/ITeacherService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/service/interface_service/IUserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/test_dao/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/test_dao/Dev.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/ru/epam/university_portal/core/dao/DAOTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/ru/epam/university_portal/core/dao/GroupAndTeacherDAOTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/ru/epam/university_portal/core/dao/GroupDAOTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/ru/epam/university_portal/core/dao/PostDAOTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/ru/epam/university_portal/core/dao/RoleDAOTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/ru/epam/university_portal/core/dao/StudentDAOTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/ru/epam/university_portal/core/dao/UserDAOTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/ru/epam/university_portal/core/hibernate_util/HibernateUtilTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/ru/epam/university_portal/core/test/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/configuration/AppConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/configuration/AppInitializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/MainController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/pages/hello.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ui/src/main/webapp/index.jsp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/implementation_dao/GroupAndTeacherDAO.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/GroupAndTeacherDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/implementation_dao/GroupDAO.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/GroupDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/implementation_dao/ManagerDAO.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/ManagerDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/implementation_dao/Messages1To1DAO.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/Messages1To1DAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/implementation_dao/MessagesFromNewsDAO.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/MessagesFromNewsDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/implementation_dao/ModeratorDAO.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/AdminDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/implementation_dao/NewsDAO.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/NewsDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/implementation_dao/PostDAO.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/PostDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/implementation_dao/RoleDAO.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/RoleDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/implementation_dao/StudentDAO.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/StudentDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/implementation_dao/TeacherDAO.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/TeacherDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/pom.xml" afterPath="$PROJECT_DIR$/core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/model.iml" afterPath="$PROJECT_DIR$/model/model.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/pom.xml" afterPath="$PROJECT_DIR$/model/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Group.java" afterPath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Group.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/GroupAndTeacher.java" afterPath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/GroupAndTeacher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Messages1To1.java" afterPath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Messages1To1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/MessagesFromNews.java" afterPath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/MessagesFromNews.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/News.java" afterPath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/News.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Post.java" afterPath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Post.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Role.java" afterPath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Role.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Student.java" afterPath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Teacher.java" afterPath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Teacher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/User.java" afterPath="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/pom.xml" afterPath="$PROJECT_DIR$/ui/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/ui.iml" afterPath="$PROJECT_DIR$/ui/ui.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-portal.iml" afterPath="$PROJECT_DIR$/university-portal.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/Conf.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/Dev.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/Test.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/AdminService.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/AdminService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/ManagerService.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/ManagerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/StudentService.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/StudentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/TeacherService.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/TeacherService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/App.java" afterPath="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/HelloController.java" afterPath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/HelloController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/initialize/MyWebInitializer.java" afterPath="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/initialize/MyWebInitializer.java" />
     </list>
     <ignored path="university-portal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -174,38 +55,18 @@
       <file leaf-file-name="TeacherService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/TeacherService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+            <state relative-caret-position="333">
+              <caret line="270" column="26" selection-start-line="270" selection-start-column="26" selection-end-line="270" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Conf.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/Conf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dev.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/Dev.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -214,61 +75,58 @@
       <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/StudentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
-              <folding>
-                <element signature="e#5394#5395#0" expanded="true" />
-                <element signature="e#5444#5445#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeacherController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/TeacherController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="240" column="32" selection-start-line="240" selection-start-column="32" selection-end-line="240" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/UserController.java">
+      <file leaf-file-name="StudentDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/StudentDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+            <state relative-caret-position="184">
+              <caret line="67" column="15" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/BaseController.java">
+      <file leaf-file-name="TeacherDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/TeacherDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="184">
+              <caret line="68" column="15" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/HelloController.java">
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+            <state relative-caret-position="213">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar!/org/springframework/stereotype/Controller.class">
+      <file leaf-file-name="AdminService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/AdminService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="2645">
+              <caret line="202" column="32" selection-start-line="202" selection-start-column="32" selection-end-line="202" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManagerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/ManagerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="197" column="32" selection-start-line="197" selection-start-column="32" selection-end-line="197" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -303,9 +161,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/model/src/main/java/ru/epam/university_portal/model/entity/Group.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/AdminService.java" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class" />
@@ -317,10 +173,8 @@
         <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/NewsDAO.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/MessagesFromNewsDAO.java" />
         <option value="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/groupChoice.jsp" />
-        <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/StudentService.java" />
         <option value="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/editStudentForTeacher.jsp" />
         <option value="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/groupChoiceTeacher.jsp" />
-        <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/TeacherService.java" />
         <option value="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/selectStudent.jsp" />
         <option value="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/addNewGroup.jsp" />
         <option value="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/addNewNews.jsp" />
@@ -345,7 +199,6 @@
         <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/RoleDAO.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/StudentDAO.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/TeacherDAO.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/App.java" />
         <option value="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/falseAuthorization.jsp" />
         <option value="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/accessDenied.jsp" />
@@ -354,6 +207,11 @@
         <option value="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/HelloController.java" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar!/org/springframework/stereotype/Controller.class" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/AdminService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/ManagerService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/StudentService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/TeacherService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/App.java" />
       </list>
     </option>
   </component>
@@ -449,8 +307,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -479,7 +335,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -493,12 +349,134 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="university-portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="university_portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testdao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="university-portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="university_portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="university-portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="university_portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="university-portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="university_portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -511,7 +489,7 @@
     <property name="project.structure.proportion" value="0.15917969" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../IdeaProjects/Test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="jdk.selected.JAVA_MODULE" value="1.7" />
@@ -1253,6 +1231,7 @@
       <workItem from="1467637507378" duration="4921000" />
       <workItem from="1467753505824" duration="111000" />
       <workItem from="1467758831405" duration="678000" />
+      <workItem from="1467760688711" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="Something">
       <created>1462666474130</created>
@@ -1265,7 +1244,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="561969000" />
+    <option name="totallyTimeSpent" value="562350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1277,8 +1256,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1289,27 +1268,27 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14750378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.4795764" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3420622" sideWeight="0.46369138" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.489418" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.489418" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29623568" sideWeight="0.51058203" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22585924" sideWeight="0.4697428" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3420622" sideWeight="0.46369138" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1413,41 +1392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/ManagerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/Messages1To1DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/RoleDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="163" column="31" selection-start-line="163" selection-start-column="31" selection-end-line="163" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/StudentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/main/webapp/WEB-INF/views/falseAuthorization.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -1476,60 +1420,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/AdminDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="124" column="8" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/GroupAndTeacherDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/BaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/TeacherDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5066">
-          <caret line="306" column="0" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/PostDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1589,7 +1483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1597,7 +1490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1609,20 +1501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/ManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/GroupDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/MessagesFromNewsDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1258">
@@ -1630,60 +1508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/NewsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/TeacherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/Conf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/Dev.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
-          <folding>
-            <element signature="e#5394#5395#0" expanded="true" />
-            <element signature="e#5444#5445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/TeacherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1716,6 +1544,166 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/main/java/ru/epam/university_portal/ui/controller/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/AdminDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/BaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/GroupAndTeacherDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/GroupDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/ManagerDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="117" column="26" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/Messages1To1DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="92" column="25" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/NewsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/PostDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/RoleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/StudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/TeacherDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="68" column="15" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2645">
+          <caret line="202" column="32" selection-start-line="202" selection-start-column="32" selection-end-line="202" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/ManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="197" column="32" selection-start-line="197" selection-start-column="32" selection-end-line="197" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="240" column="32" selection-start-line="240" selection-start-column="32" selection-end-line="240" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/business/TeacherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="270" column="26" selection-start-line="270" selection-start-column="26" selection-end-line="270" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/Conf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/epam/university_portal/core/testdao/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding />
         </state>
       </provider>
