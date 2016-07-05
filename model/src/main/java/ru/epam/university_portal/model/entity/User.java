@@ -2,45 +2,30 @@ package ru.epam.university_portal.model.entity;
 import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
-//import javax.xml.crypto.Data;
 import java.io.*;
 import java.util.Date;
-//import java.sql.Date;
 /**
  * Created by Владос on 04.05.2016.
  */
 @Entity
-@Table(name = ("user"))
+@Table(name = "user")
 public class User implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = ("id"))
+    @Column(name = "id")
     private int id;
-    @Column(name = ("name"))
+    @Column(name = "name")
     private String name;
-    @Column(name = ("lastName"))
+    @Column(name = "lastName")
     private String lastName;
-    @Column(name = ("age"))
-    private Date age;
-    @Column(name = ("login"), nullable = false)
+    @Column(name = "age")
+    private java.util.Date age;
+    @Column(name = "login", nullable = false)
     private String login;
-    @Column(name = ("password"), nullable = false)
+    @Column(name = "password", nullable = false)
     private String password;
-    @Column(name = ("idRole"), nullable = false)
+    @Column(name = "idRole", nullable = false)
     private int idRole;
-
-    public User(){}
-
-public  User(String name, String lastName,String login,String password,int idRole,Date age){
-
-    this.name=name;
-    this.lastName=lastName;
-    this.age=age;
-    this.login=login;
-    this.password=password;
-    this.idRole=idRole;
-
-}
 
     public int getId() {
         return id;

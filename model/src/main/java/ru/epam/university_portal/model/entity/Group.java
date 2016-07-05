@@ -15,18 +15,6 @@ public class Group implements Serializable {
     @Column(name = ("name"), nullable = false)
     private String name;
 
-    public Group(){}
-    public Group(int id,String groupName){
-
-        this.id=id;
-        this.name=groupName;
-
-    }
-@Override
-public boolean equals(Object obj){
-    Group other=(Group)obj;
-    return id==other.id&&name.equals(other.name);
-}
     public int getId() {
         return id;
     }

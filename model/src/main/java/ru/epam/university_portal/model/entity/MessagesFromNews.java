@@ -6,17 +6,17 @@ import java.io.Serializable;
  * Created by Владос on 04.05.2016.
  */
 @Entity
-@Table(name = ("messages_from_news"))
+@Table(name = "messages_from_news")
 public class MessagesFromNews implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = ("id"))
+    @Column(name = "id")
     private int id;
-    @Column(name = ("idFrom"), nullable = false)
+    @Column(name = "idFrom", nullable = false)
     private int idFrom;
-    @Column(name = ("idNews"), nullable = false)
+    @Column(name = "idNews", nullable = false)
     private int idNews;
-    @Column(name = ("message"))
+    @Column(name = "message")
     private String message;
 
     public int getId() {

@@ -5,15 +5,15 @@ import java.io.*;
  * Created by Владос on 04.05.2016.
  */
 @Entity
-@Table(name = ("news"))
+@Table(name = "news")
 public class News implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = ("id"))
+    @Column(name = "id")
     private int id;
-    @Column(name = ("idGroup"), nullable = false)
+    @Column(name = "idGroup", nullable = false)
     private int idGroup;
-    @Column(name = ("name"), nullable = false)
+    @Column(name = "name", nullable = false)
     private String name;
 
     public int getId() {

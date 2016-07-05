@@ -7,17 +7,17 @@ import java.io.Serializable;
  * Created by Владос on 04.05.2016.
  */
 @Entity
-@Table(name = ("messages_1_to_1"))
+@Table(name = "messages_1_to_1")
 public class Messages1To1 implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = ("id"))
+    @Column(name = "id")
     private int id;
-    @Column(name = ("idFrom"), nullable = false)
+    @Column(name = "idFrom", nullable = false)
     private int idFrom;
-    @Column(name = ("idTo"), nullable = false)
+    @Column(name = "idTo", nullable = false)
     private int idTo;
-    @Column(name = ("message"))
+    @Column(name = "message")
     private String message;
 
     public int getId() {

@@ -1,0 +1,237 @@
+body{
+margin: 0;
+font-size: 20px;
+font-family: /*Century Gothic, */Helvetica;
+}
+ul{
+list-style-type: none;
+}
+a{
+display: inline-block;
+margin-top: 10px;
+text-decoration: none;
+}
+hr{
+margin-left: 20px;
+margin-right: 20px;
+}
+textarea{
+resize: none;
+}
+#left{
+overflow-y: scroll;
+background-color: #90EE90;
+float: left;
+width: 20%;
+height: 100%;
+}
+#left-down{
+overflow-y: scroll;
+background-color: #90EE90;
+margin-top: 4%;
+float: left;
+width: 20%;
+height: 91.5%;
+}
+#right{
+background-color: #90EE90;
+float: right;
+width: 20%;
+height: 100%;
+}
+#center{
+overflow-y: scroll;
+background-color: #90EE90;
+float: left;
+margin-left: 5%;
+margin-top: 4%;
+width: 50%;
+height: 70%;
+}
+#center-down{
+overflow-y: scroll;
+background-color: #90EE90;
+margin-top: 4%;
+margin-left: 5%;
+float: left;
+width: 50%;
+height: 91.5%;
+}
+#footer{
+position: absolute;
+height: 22%;
+width: 50%;
+background: #90EE90;
+bottom: 0px;
+}
+#top{
+position: absolute;
+margin-left: 25%;
+height: 9%;
+float: left;
+width: 50%;
+background-color: #90EE90;
+font-size: 22px;
+font-weight: bold;
+text-align: center;
+}
+#top-left{
+position: absolute;
+margin-left: 0px;
+height: 9%;
+float: left;
+width: 20%;
+background-color: #90EE90;
+font-size: 22px;
+font-weight: bold;
+text-align: center;
+}
+#center-form{
+background-color: #90EE90;
+margin: auto;
+width: 35%;
+height: 40%;
+}
+#back{
+margin-top: 10px;
+margin-left: 10px;
+}
+div label{
+display: inline-block;
+margin-top: 10px;
+margin-left: 10px;
+}
+.header{
+font-size: 22px;
+font-weight: bold;
+text-align: center;
+}
+#news-buttons{
+margin-left: 10%;
+width: 35%;
+}
+#news-buttons a{
+display: inline-block;
+margin-top: 25px;
+font-size: 20px;
+}
+#add-news{
+width: 35%;
+padding-left: 8px;
+padding-right: 8px;
+margin-left: 30%;
+font-size: 20px;
+margin-top: 20px;
+}
+#buttons-create{
+margin: auto;
+margin-top: 140px;
+height: 20px;
+width: 55%;
+}
+#buttons-create input{
+float: left; 
+margin-left: 10px;
+padding-left: 8px;
+padding-right: 8px;
+margin-top: 10px;
+font-size: 15px;
+}
+#buttons-information{
+margin: auto;
+margin-top: 160px;
+height: 20px;
+width: 55%;
+}
+#buttons-information button{
+float: left;
+padding-left: 8px;
+padding-right: 8px;
+margin-left: 30%;
+margin-top: 0px;
+font-size: 15px;
+}
+#buttons{
+margin: auto;
+margin-top: 190px;
+height: 20px;
+width: 55%;
+}
+#buttons button{
+float: left;
+padding-left: 8px;
+padding-right: 8px;
+margin-left: 30%;
+margin-top: 25px;
+font-size: 15px;
+}
+#buttons input{
+float: left; 
+margin-left: 10px;
+padding-left: 8px;
+padding-right: 8px;
+margin-top: 10px;
+font-size: 15px;
+}
+.user{
+    clear: both;
+    float: left;
+    width: 28%;
+    word-wrap: break-word;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.user-choice{
+    float: left;
+    clear:both;
+}
+.message{
+    float: right;
+    font-size: 18px;
+    width: 68%;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+.message p{
+margin-top: 8px;
+}
+.add-message{
+margin-bottom: 30px;
+clear: both;
+display: inline-block;
+margin-left: 20%;
+}
+.add-message textarea{
+width: 400px;
+height: 60px;
+font-size: 14px;
+}
+.add-message input {
+float: right;
+margin-top: 1px;
+margin-right: 10px;
+font-size: 14px;
+}
+.table-left{
+font-weight: bold;
+float: left;
+width: 50%;
+}
+.table-right{
+float: right;
+width: 50%;
+}
+.table-right input{
+margin-top: 10px;
+font-size: 16px;
+}
+.table-right select{
+margin-top: 9px;
+font-size: 16px;
+}
+#big-center-form{
+background-color: #90EE90;
+margin: auto;
+width: 40%;
+height: 50%;
+}

@@ -5,18 +5,28 @@ import java.io.*;
  * Created by Владос on 04.05.2016.
  */
 @Entity
-@Table(name = ("teacher"))
+@Table(name = "teacher")
 public class Teacher implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = ("id"))
+    @Column(name = "id")
     private int id;
-    @Column(name = ("idPost"), nullable = false)
+    @Column(name = "idPost", nullable = false)
     private int idPost;
-    @Column(name = ("idUser"), nullable = false)
+    @Column(name = "idUser", nullable = false)
     private int idUser;
-    @Column(name = ("newMessagesIDs"))
+    @Column(name = "newMessagesIDs")
     private String newMessagesIDs;
+    @Column(name = "interlocutorsIDs")
+    private String interlocutorsIDs;
+
+    public String getInterlocutorsIDs() {
+        return interlocutorsIDs;
+    }
+
+    public void setInterlocutorsIDs(String interlocutorsIDs) {
+        this.interlocutorsIDs = interlocutorsIDs;
+    }
 
     public int getIdPost() {
         return idPost;
